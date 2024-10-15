@@ -2,7 +2,7 @@ from flask import Flask
 
 application = Flask(__name__)
 
-@application.route("/he")
+@application.route("/hel")
 def index():
     return "Your Flask App Works!"
 
